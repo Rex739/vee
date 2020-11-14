@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import Header from './components/header';
-import About from './components/About';
-import Services from './components/Services';
-import Collections from './components/Collections';
+import HireUs from './components/Hire';
+import Newsletter from './components/Newsletter';
+import Footer from './components/Footer';
 // local css
 import './containers/css/vee.css';
 // global css
@@ -11,17 +10,16 @@ import './containers/css/bootstrap-grid.min.css';
 import './containers/css/animate.css';
 
 
-class App extends Component{
+class App2 extends Component{
   render(){
     return(
         <div className="vee">
-	        <Header />
-	        <About />
-	        <Services />
-	        <Collections />
+	        <HireUs />
+	        <Newsletter />
+	        <Footer />
     	</div>
     )
   }
 }
 
-export default App;
+export default App2;

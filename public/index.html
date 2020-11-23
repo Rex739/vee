@@ -26,6 +26,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Vee Clothing</title>
+    <!-- glider slide css for collections section -->
     <style>
       .glider-persp .glider-slide {
         height: 150px !important;
@@ -169,10 +170,11 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- glider slide html for collection section -->
     <div data-name="Perspective View" class="glider-contain multiple width-custom">
       <div class="glider glider-persp" id="">
         <div><div class="gradient-border-bottom"><div class="gradient-border"><img src="./images/collection1.png" alt=""class="m-auto"></div></div></div>
-        <div><div class="gradient-border-bottom"><div class="gradient-border"><video class="custom-video"  controls="" poster="./images/collection4.png"2 class=""><source src="https://res.cloudinary.com/dcxghlgre/video/upload/q_auto,f_auto/v1604286083/vee_irs7cl.mp4" type="video/mp4"></video></div></div></div>
+        <div><div class="gradient-border-bottom"><div class="gradient-border"><video class="custom-video"  controls="" poster="./images/collection4.png"><source src="https://res.cloudinary.com/dcxghlgre/video/upload/q_auto,f_auto/v1604286083/vee_irs7cl.mp4" type="video/mp4"></video></div></div></div>
         <div><div class="gradient-border-bottom"><div class="gradient-border"><img src="./images/collection2.png" alt=""></div></div></div>
         <div><div class="gradient-border-bottom"><div class="gradient-border"><img src="./images/collection3.png" alt=""></div></div></div>
         <div><div class="gradient-border-bottom"><div class="gradient-border"><img src="./images/collection7.png" alt=""></div></div></div>
@@ -194,6 +196,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script src="js/glider.js"></script>
+    <!-- glider slide js for collection section -->
     <script type="text/javascript">
       new Glider(document.querySelector('.glider'), {
         slidesToShow: 1,
